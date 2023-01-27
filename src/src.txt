@@ -1,0 +1,38 @@
+Listagem de caminhos de pasta para o volume OS
+O número de série do volume é F41B-F5D7
+C:.
+¦   index.ts
+¦   migrations.ts
+¦   src.txt
+¦   
++---business
+¦       PostBusiness.ts
+¦       PostRepository.ts
+¦       UserBusiness.ts
+¦       UserRepository.ts
+¦       
++---controller
+¦   ¦   app.ts
+¦   ¦   PostController.ts
+¦   ¦   UserController.ts
+¦   ¦   
+¦   +---routes
+¦           postRouter.ts
+¦           userRouter.ts
+¦           
++---data
+¦   +---mySQL
+¦           BaseDatabase.ts
+¦           PostDatabase.ts
+¦           UserDatabase.ts
+¦           
++---error
+¦       customError.ts
+¦       
++---model
+¦       post.ts
+¦       user.ts
+¦       
++---services
+        generateId.ts
+        

@@ -1,0 +1,33 @@
+####
+POST http://localhost:3306/user/create
+Content-Type: application/json
+
+{
+    "name": "Jonh Smith",
+    "email": "jjsmt@.com",
+    "password": "1989856"
+}
+
+####
+GET http://localhost:3306/user/getAll
+Content-Type: application/json
+
+
+###
+POST http://localhost:3306/post/create
+Content-Type: application/json
+
+{
+    "photo": "https://img.elo7.com.br/product/zoom/163D29D/adesivo-de-parede-homem-aranha-homem-aranha.jpg",
+    "description": "Homem Aranha",
+    "type": "event",
+    "author_id":"1699999"
+}
+
+####
+GET http://localhost:3306/post/getAll
+Content-Type: application/json
+
+####
+GET http://localhost:3306/post/get/674778163034
+Content-Type: application/json
