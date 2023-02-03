@@ -5,9 +5,9 @@ POST http://localhost:3306/user/create
 Content-Type: application/json
 
 {
-    "name": "Gibs",
-    "email": "chefencis@any.com",
-    "password": "6547893"
+    "name": "Aquaman",
+    "email": "filhodePoseidon@any.com",
+    "password": "65000893"
 }
 
 //BUSCA TODOS USUARIOS

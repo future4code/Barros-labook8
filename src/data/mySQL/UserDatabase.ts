@@ -2,7 +2,7 @@ import { CustomError } from "../../error/customError";
 import { user } from "../../model/user";
 import { BaseDatabase } from "./BaseDatabase";
 
-export class UserDatabase extends BaseDatabase {
+export class UserDatabase extends BaseDatabase implements BaseDatabase {
 
     public insertUser = async (user: user): Promise<void> => {
         try {
