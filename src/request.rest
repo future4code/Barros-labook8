@@ -1,33 +1,68 @@
+//CRIA USUARIO
+
 ####
 POST http://localhost:3306/user/create
 Content-Type: application/json
 
 {
-    "name": "Jonh Smith",
-    "email": "jjsmt@.com",
-    "password": "1989856"
+    "name": "Gibs",
+    "email": "chefencis@any.com",
+    "password": "6547893"
 }
+
+//BUSCA TODOS USUARIOS
 
 ####
 GET http://localhost:3306/user/getAll
 Content-Type: application/json
 
+//CRIA POST
 
 ###
 POST http://localhost:3306/post/create
 Content-Type: application/json
 
 {
-    "photo": "https://img.elo7.com.br/product/zoom/163D29D/adesivo-de-parede-homem-aranha-homem-aranha.jpg",
-    "description": "Homem Aranha",
-    "type": "event",
-    "author_id":"1699999"
+    "photo": "image not found",
+    "description": "Lanterna Verde",
+    "type": "normal",
+    "author_id":"123123123"
 }
+
+//BUSCA POR ID DO POST
+
+####
+GET http://localhost:3306/post/get/1674778163034
+Content-Type: application/json
+
+//BUSCA TODOS OS POSTS
 
 ####
 GET http://localhost:3306/post/getAll
 Content-Type: application/json
 
+//CRIA AMIZADE
+
+###
+POST http://localhost:3306/friend/create
+Content-Type: application/json
+
+{
+    "friendId":"1674763316671"
+}
+
+//DESFAZ AMIZADE
+
+###
+DELETE  http://localhost:3306/friend/delete
+Content-Type: application/json
+
+{
+    "friendId":"1674763316671"
+}
+
+//BUSCAR TODOS OS AMIGOS
+
 ####
-GET http://localhost:3306/post/get/674778163034
+GET http://localhost:3306/friend/getAll
 Content-Type: application/json

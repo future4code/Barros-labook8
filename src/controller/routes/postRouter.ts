@@ -11,6 +11,8 @@ const postBusiness = new PostBusiness(postDatabase)
 
 const postController = new PostController(postBusiness)
 
+postRouter.get("/getAll",postController.getAllPosts)
+
 postRouter.get("/get/:id",postController.getPost)
 
 postRouter.post('/create', postController.createPost)
