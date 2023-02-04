@@ -31,7 +31,6 @@ O LaBook será uma rede social com o objetivo de promover a conexão e interaç�
 
 <br>
 
-
 ## 🖇️ `Deploy`
 ### Links do Render
 
