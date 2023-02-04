@@ -35,14 +35,7 @@ O LaBook será uma rede social com o objetivo de promover a conexão e interaç�
 ## 🖇️ `Deploy`
 ### Links do Render
 
-[<sub>Turma</sub>](https://labe-systens.onrender.com/turma) 
-
-[<sub>Estudante</sub>](https://labe-systens.onrender.com/estudante) 
-
-[<sub>Docente</sub>](https://labe-systens.onrender.com/docente) 
-
-[<sub>Especialidades</sub>](https://labe-systens.onrender.com/especialidades) 
-
+[<sub>Labook</sub>](https://labook-7e7p.onrender.com) 
 
 <br>
 
