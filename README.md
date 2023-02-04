@@ -1,5 +1,7 @@
 # _NWFS: LaBook_
 
+<br>
+
 ## ⌨️ `Descrição do Projeto`
 ```
 O LaBook será uma rede social com o objetivo de promover a conexão e interação entre seus mais diversos usuários. Os usuários podem criar posts de dois tipos ("evento" ou "normal"), comentá-los e curti-los também. O desenvolvedor do frontend acha que é bastante experiente; dessa forma, já preparou uma lista de todos os endpoints que serão necessários para o projeto e foi adiantando o desenvolvimento enquanto você não chegava. Mas, alguns dos endpoints acabaram por ser feitos na pressa e estão um tanto desestrurados, e sem nenhum tipo de tratamento ou modelagem de dado.
