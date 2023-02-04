@@ -27,7 +27,7 @@ O LaBook será uma rede social com o objetivo de promover a conexão e interaç�
 
 ## 📋 `Documentação do Postman`
 
-[<sub>Link do Postman</sub>](https://documenter.getpostman.com/view/24706667/2s8Z73xqeP) 
+[<sub>Link do Postman</sub>](https://documenter.getpostman.com/view/22363573/2s935mtRPW) 
 
 <br>
 
